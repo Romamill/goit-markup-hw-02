@@ -1,0 +1,122 @@
+:root {
+  --color-brand: #2e2f42;
+  --color-prymary: #434455;
+  --color-secondary: #ffffff;
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+}
+
+body {
+  color: var(--color-prymary);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  background-color: var(--color-secondary)
+}
+ul {
+  list-style-type: none;
+}
+
+/* site nav */
+.logo {
+  color: var(--color-brand);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-decoration: none;
+}
+.span-web {
+  color: var(--color-iris)
+}
+
+.header-link {
+  color: var(--color-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.header-link:hover,
+.header-link:focus,
+.header-link:after {
+  color: var(--color-ocean)
+  text-decoration: underline;
+}
+/* Address */
+.mail,
+.tel {
+  color: var(--color-prymary);
+  font-style: normal;
+  text-decoration: none;
+}
+.mail:hover,
+.mail:focus {
+  color: var(--color-ocean)
+}
+
+/* Main */
+
+.hero-section {
+  background-color: var(--color-brand);
+}
+.hero-title {
+  font-family: 'Raleway', sans-serif;
+  color: var(--color-secondary)
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+.button-hero {
+  color: var(--color-secondary);
+  background-color: var(--color-iris)
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: solid var(--color-brand);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-hero:hover,
+.button-hero:focus {
+  color: var(--color-secondary);
+  background-color: var(--color-ocean)
+}
+/* features */
+
+.title-h3 {
+  color: var(--color-brand);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+/* Title-h2 */
+.title-h2 {
+  color: var(--color-brand);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.our-team {
+  background-color: #f4f4fd;
+}
+/* Footer */
+footer {
+  background-color: var(--color-brand);
+}
+.footer-logo {
+  color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+.footer-p {
+  color: #e7e9fc;
+}

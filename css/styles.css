@@ -16,7 +16,7 @@ body {
 
 /* Header */
 header {
-  background-color: var(--color-secondary)
+  background-color: var(--color-secondary);
 }
 ul {
   list-style-type: none;
@@ -32,7 +32,7 @@ ul {
   text-decoration: none;
 }
 .span-web {
-  color: var(--color-iris)
+  color: var(--color-iris);
 }
 
 .header-link {
@@ -45,7 +45,7 @@ ul {
 .header-link:hover,
 .header-link:focus,
 .header-link:after {
-  color: var(--color-ocean)
+  color: var(--color-ocean);
   text-decoration: underline;
 }
 /* Address */
@@ -57,7 +57,7 @@ ul {
 }
 .mail:hover,
 .mail:focus {
-  color: var(--color-ocean)
+  color: var(--color-ocean);
 }
 
 /* Main */
@@ -67,14 +67,14 @@ ul {
 }
 .hero-title {
   font-family: 'Raleway', sans-serif;
-  color: var(--color-secondary)
-  font-weight: 700;
+  color: var(--color-secondary);
+  font-weight: 700px;
   font-size: 56px;
   line-height: 1.07;
 }
 .button-hero {
   color: var(--color-secondary);
-  background-color: var(--color-iris)
+  background-color: var(--color-iris);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -85,7 +85,7 @@ ul {
 .button-hero:hover,
 .button-hero:focus {
   color: var(--color-secondary);
-  background-color: var(--color-ocean)
+  background-color: var(--color-ocean);
 }
 /* features */
 

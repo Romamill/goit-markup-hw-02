@@ -105,6 +105,10 @@ ul {
 .our-team {
   background-color: #f4f4fd;
 }
+.background-our-team {
+  background-color: var(--color-secondary);
+}
+
 /* Footer */
 footer {
   background-color: var(--color-brand);
@@ -119,4 +123,28 @@ footer {
 }
 .footer-p {
   color: #e7e9fc;
+}
+
+/* Portfolio */
+
+.portfolio-button {
+  color: var(--color-iris);
+  background-color: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: solid #e7e9fc;
+  border-radius: 1px;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--color-secondary);
+  background-color: var(--color-ocean);
+}
+
+.background-our-works {
+  background-color: var(--color-secondary);
+  border: solid #e7e9fc;
+  border-radius: 1px;
 }

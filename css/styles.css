@@ -51,7 +51,6 @@ ul {
 .header-link:focus,
 .header-link:after {
   color: var(--color-ocean);
-  text-decoration: underline;
 }
 /* Address */
 .mail,
